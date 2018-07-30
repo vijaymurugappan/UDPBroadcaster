@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/start_broadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="139dp"
+        android:text="@string/start"/>
+
+    <Button
+        android:id="@+id/stop_broadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="@string/stop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="196dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/portNumber"
+        android:textSize="20sp"
+        android:id="@+id/PORT"/>
+
+    <TextView
+        android:id="@+id/IP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/PORT"
+        android:layout_marginBottom="141dp"
+        android:text="@string/ipAddress"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/PORTVAL"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/IP"
+        android:layout_centerHorizontal="true"
+        android:text="@string/IPValue"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/IPVAL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/PORT"
+        android:layout_marginStart="114dp"
+        android:text="@string/portValue"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/PORT"
+        android:layout_marginTop="55dp"
+        android:text="@string/Status"
+        android:id="@+id/stat"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/stat"
+        android:layout_toEndOf="@+id/IPVAL"
+        android:text="@string/DummyVal"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:id="@+id/StatusValue"/>
+
+</RelativeLayout>

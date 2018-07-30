@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UDPBroadcaster</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="portNumber">Port: </string>
+    <string name="ipAddress">IP: </string>
+    <string name="portValue">8001</string>
+    <string name="IPValue">255.255.0.0</string>
+    <string name="Status">STATUS: </string>
+    <string name="DummyVal">Stopped</string>
+</resources>
